@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="spotify.css" />
+    <title>Spotify Recreation</title>
+  </head>
+  <body>
+      <div class= "sidebar"> 
+          <div>
+            <img class="img-fluid" src="images/spotify_logo.png" alt="Image Coming Soon!">
+          </div>
+          <div  class="icon_nav_group">
+            <img class="icon" src="images/house_white.svg">
+            <span class = "nav-link make-white"> Home </span>
+          </div>
+          <div  class="icon_nav_group">
+            <img class="icon" src="images/search.svg">
+            <span class = "nav-link"> Search </span>
+          </div>
+          <div  class="icon_nav_group">
+            <img class="icon" src="images/library.svg">
+            <span class = "nav-link"> Your Library </span>
+          </div>
+          <br>
+          <div  class="icon_nav_group">
+            <img class="icon" src="images/plus_grey.svg">
+            <span class = "nav-link"> Create Playlist</span>
+          </div>
+          <div  class="icon_nav_group">
+            <img class="icon" src="images/heart_purple.svg">
+            <span class = "nav-link"> Liked Songs</span>
+          </div>
+          <br>
+          <div class="border"></div>
+          <div class = "nav-link">
+            Daily Mix 4
+            </div>
+            <div class = "nav-link">
+            Daily Mix 2
+            </div>
+            <div class = "nav-link">
+            Soft Altenative
+            </div>
+            <div class = "nav-link">
+            Running
+            </div>
+            <div class = "nav-link">
+            Brewing
+            </div>
+            <div class = "nav-link">
+            Psychedilic music/high jams
+            </div>
+            <div class = "nav-link">
+            Live --- Lightning Crashes
+            </div>
+            <div class = "nav-link">
+            Legendary
+            </div>
+            <div class = "nav-link">
+            60s Rock Anthems
+            </div>
+            <div class = "nav-link">
+            Psychedilic Rock
+            </div>
+            <div class = "nav-link">
+            Liked from Radio
+            </div>
+            <div class = "nav-link">
+            John Mayer --- Love on the ...
+            </div>
+            <br><br>
+            <div class="icon_nav_group">
+              <img class="icon" src="images/arrow_circle.svg">
+              <span class = "nav-link extra-bold"> Install App</span>
+            </div>
+            <img class='album-cover' src="images/top_priority.png">
+            
+            
+      </div>
+      
+        <div class="bottom-bar">
+          <div class="title-artist-heart">
+            <div class = "title-artist">
+              <div id = "now-playing" class = "song-title" > Bad Penny</div>
+              <div class = "artist"> Rory Gallagher </div>
+            </div>
+            <img class="icon" id = "bottom-heart" src="images/heart_no_fill.svg">  
+          </div>
+          <div class="play-pause-ui">
+            <div class="upper-row">
+              <img class="icon" src="images/shuffle.svg">
+              <img class="icon" src="images/back.svg">
+              <img class="icon enlargen" src="images/pause.svg">
+              <img class="icon" src="images/forward.svg">
+              <img class="icon" src="images/repeate.svg">
+            </div>
+            <div class= "scrollbar">
+              <span class = "time"> 0.02 </span>
+              <hr id="time-running-bar" >
+              <hr id="time-remaining-bar" color="#454545">
+              <span class="time">4:05</span>
+            </div>
+
+          </div>
+          <div class="bottom-right-options">
+            <img class = "icon" src="images/microphone.svg">
+            <img class = "icon" src="images/list.svg">
+            <img class = "icon" src="images/volume.svg">
+            <hr id = "volume-bar" color="white";>
+            <img class = "icon" src="images/arrows.svg">
+          
+          </div>
+        </div>
+      <main>
+        <div class="arrow-group">
+          <div class= "dark-shade-arrows">
+            <img class="arrow" src="images/arrow_left.svg">
+          </div>
+          <div class= "dark-shade-arrows">
+            <img class="arrow" src="images/arrow_right.svg">
+          </div>
+        </div>
+        <div>
+          <h1> Good Evening</h1>
+        </div>
+        <section class="quick-launch">
+          <div class = ql-row>
+              <div class = "quick-launch-box" id = "ql_1">
+                <div class="ql-icon-label-group">
+                  <img class="ql-image" src="images/blues_mix.png">
+                  <span>Blues Mix</span>
+                </div>
+                <img id="pause-green" src="images/pause_green.svg">
+               
+              </div>
+              <div class = "quick-launch-box" id = "ql_2">
+                <div class="ql-icon-label-group">
+                  <img class="ql-image" src="images/daily_5.png">
+                  <span>Daily Mix 5</span>
+                </div>
+                <img class = "play_button_ql" id= "play_button_QL2" src="images/play.svg">
+              </div>
+              
+         
+            <div class = "quick-launch-box" id = "ql_3">
+              <div class="ql-icon-label-group">
+                <img class="ql-image" src="images/fountains_of_wayne.png">
+                <span>This Is Fountains Of Wayne</span>
+              </div>
+              <img class = "play_button_ql" id="play_button_QL3" src="images/play.svg">
+            </div>
+            <div class = "quick-launch-box" id = "ql_4">
+              <div class="ql-icon-label-group">
+                <img class="ql-image" src="images/daily_4.png">
+                <span>Daily Mix 4</span>
+              </div>
+              <img class = "play_button_ql" id="play_button_QL4" src ="images/play.svg">
+            </div>
+            <div class = "quick-launch-box" id = "ql_5">
+              <div class="ql-icon-label-group">
+                <img class="ql-image" src="images/bon_iver.png">
+                <span>Bon Iver Radio</span>
+              </div>
+              <img class = "play_button_ql"_plc id="play_button_QL5" src ="images/play.svg">
+            </div>
+            <div class = "quick-launch-box" id = "ql_6">
+              <div class="ql-icon-label-group">
+                <img class="ql-image" src="images/rock_mix.png">
+                <span>Rock Mix</span>
+              </div>
+              <img class = "play_button_ql" id="play_button_QL6" src ="images/play.svg">
+            </div>
+          </div>
+        </section>
+        <section class="large-cards">
+          <h1> Made For You</h1>
+          <div class = "card-row">
+            <div class = "playlist-card" id="plc_A1">
+              <img class="playlist-card-image"  src="images/daily_3.png">
+              <div class = "playlist-title">Daily Mix 3</div>
+              <div class = "playlist-artists">Gearge Ezra, Passenger,</div>
+              <div class = "playlist-artists">Lilly & Madeleine and...</div>
+              <img class = "play_button_plc" id= "play_button_PLCA1" src="images/play.svg">
+
+            </div>
+            <div class = "playlist-card" id="plc_A2">
+              <img class="playlist-card-image" src="images/daily_6.png">
+              <div class = "playlist-title">Daily Mix 6</div>
+              <div class = "playlist-artists">Caamp, Iron & Wine, The</div>
+              <div class = "playlist-artists">Revivalists and more</div>
+              <img class = "play_button_plc" id= "play_button_PLCA2" src="images/play.svg">
+
+            </div>
+            <div class = "playlist-card" id="plc_A3">
+              <img class="playlist-card-image" src="images/jj_cale.png">
+              <div class = "playlist-title">J.J. Cale Mix</div>
+              <div class = "playlist-artists">Allman Brothers Band, Van</div>
+              <div class = "playlist-artists">Morrison, Little Feat, and...</div>
+              <img class = "play_button_plc" id= "play_button_PLCA3" src="images/play.svg">
+
+            </div>
+            <div class = "playlist-card" id="plc_A4">
+              <img class="playlist-card-image" src="images/the_band.png">
+              <div class = "playlist-title">The Band Mix</div>
+              <div class = "playlist-artists">Donnovan, Little Feat,</div>
+              <div class = "playlist-artists">Faces, and more</div>
+              <img class = "play_button_plc" id= "play_button_PLCA4" src="images/play.svg">
+
+            </div>
+            <div class = "playlist-card" id="plc_A5">
+              <img class="playlist-card-image" src="images/70s_mix.png">
+              <div class = "playlist-title">70s Mix</div>
+              <div class = "playlist-artists">Van Morrison, Creedance</div>
+              <div class = "playlist-artists">Clearwater Revival, J.J....</div>
+              <img class = "play_button_plc" id= "play_button_PLCA5" src="images/play.svg">
+
+            </div>
+          </div>
+        </section>
+        <section class="large-cards">
+          <h1> Jump Back In</h1>
+          <div class = "card-row">
+            <div class = "playlist-card" id="plc_B1">
+              <img class="playlist-card-image" src="images/daily_1.png">
+              <div class = "playlist-title">Daily Mix 1</div>
+              <div class = "playlist-artists">J.J. Cale, The Doors, The</div>
+              <div class = "playlist-artists">Rolling Stones and more</div>
+              <img class = "play_button_plc" id= "play_button_PLCB1" src="images/play.svg">
+            </div>
+            <div class = "playlist-card" id="plc_B2">
+              <img class="playlist-card-image" src="images/daily_2.png">
+              <div class = "playlist-title">Daily Mix 2</div>
+              <div class = "playlist-artists">John Prine, Warren Zevon,</div>
+              <div class = "playlist-artists">Jim Croce and more</div>
+              <img class = "play_button_plc" id= "play_button_PLCB2" src="images/play.svg">
+            </div>
+            <div class = "playlist-card" id="plc_B3">
+              <img class="playlist-card-image" src="images/daily_drive.png">
+              <div class = "playlist-title">Daily Drive</div>
+              <div class = "playlist-artists">A mix of news and music</div>
+              <div class = "playlist-artists">made for you</div>
+              <img class = "play_button_plc" id= "play_button_PLCB3" src="images/play.svg">
+            </div>
+            <div class = "playlist-card" id="plc_B4">
+              <img class="playlist-card-image" src="images/wellness.png">
+              <div class = "playlist-title">Daily Wellness</div>
+              <div class = "playlist-artists">A mix of music and</div>
+              <div class = "playlist-artists">wellness to guide you...</div>
+              <img class = "play_button_plc" id= "play_button_PLCB4" src="images/play.svg">
+            </div>
+            <div class = "playlist-card" id="plc_B5">
+              <img class="playlist-card-image" src="images/discover.png">
+              <div class = "playlist-title">Discover Weekly</div>
+              <div class = "playlist-artists">Your weekly mixtape of</div>
+              <div class = "playlist-artists">fresh music. Enjoy new....</div>
+              <img class = "play_button_plc" id= "play_button_PLCB5" src="images/play.svg">
+            </div>
+          </div>
+        </section>
+      </main>  
+   </body>
+
+       
